@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+node_modules/
+.env
+*.wav
+*.m4a
+*.pdf
+*.db
+backend/model/
+
+data/
+*.csv
+*.tsv
+!data/sample.csv
