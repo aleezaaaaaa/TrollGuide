@@ -2,13 +2,18 @@ __pycache__/
 *.pyc
 node_modules/
 .env
-*.wav
-*.m4a
-*.pdf
-*.db
-backend/model/
 
+# datasets
 data/
 *.csv
 *.tsv
-!data/sample.csv
+
+# models
+backend/model/
+*.pt
+*.safetensors
+
+# others
+*.pdf
+*.wav
+*.m4a
