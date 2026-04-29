@@ -2,11 +2,11 @@ __pycache__/
 *.pyc
 node_modules/
 .env
-
 # datasets
 data/
 *.csv
 *.tsv
+
 
 # models
 backend/model/
@@ -17,3 +17,4 @@ backend/model/
 *.pdf
 *.wav
 *.m4a
+*.db
